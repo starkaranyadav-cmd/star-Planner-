@@ -1,0 +1,6 @@
+{
+  "name": "Daily Routine",
+  "description": "Daily Routine & Productivity Tracker with live clock, active activity highlighter, countdowns, notifications, and alarms.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

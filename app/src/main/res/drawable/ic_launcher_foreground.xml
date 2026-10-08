@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Clock Outer Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00F5D4"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M54,28 A26,26 0 1,0 80,54" />
+
+    <!-- Progress arc accent -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#7B2CBF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M80,54 A26,26 0 0,0 54,28" />
+
+    <!-- Clock Center Dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,51 A3,3 0 1,0 54,57 A3,3 0 1,0 54,51" />
+
+    <!-- Clock Hour Hand -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,54 L54,39" />
+
+    <!-- Clock Minute Hand pointing to 3:15 -->
+    <path
+        android:strokeColor="#00F5D4"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M54,54 L66,54" />
+
+    <!-- Productivity Check Badge in bottom right -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M65,65 m-10,0 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0" />
+
+    <!-- Checkmark inside badge -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M61,65 L64,68 L70,62" />
+</vector>
